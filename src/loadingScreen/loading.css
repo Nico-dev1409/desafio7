@@ -1,0 +1,5 @@
+.loadingIcon{
+    animation: loading 1s normal infinite;
+    width: 200px;
+    height: 200px;
+}

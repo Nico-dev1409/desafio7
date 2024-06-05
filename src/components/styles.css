@@ -1,0 +1,53 @@
+@keyframes loading {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-form{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputUser{
+    width: 350px !important;
+}
+.button-form{
+    margin: 25px;
+}
+.users-container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    padding: 20px;
+}
+.users-container.loading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.tittle-listUsers{
+    align-self: center;
+    padding: 5px;
+    font-size: 2em;
+}
+.hidden{
+    display: none;
+}
